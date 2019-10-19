@@ -1,0 +1,10 @@
+<ul>
+<li th:each="customer: ${customers}">
+	<pre>
+	- <span th:text="'CustomerId: ' + ${customer.id}">
+	</span>
+	- <span th:text="'CustomerId: ' + ${customer.name}">
+	</span>
+	</pre>
+</li>
+</ul>
